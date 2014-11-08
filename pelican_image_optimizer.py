@@ -22,7 +22,7 @@ COMMANDS = {
     '.jpg': JPEG,
     '.jpeg': JPEG,
     '.png': 'pngquant -o "{filename}." "{filename}"',
-    '.gif': 'gifsicle -O "{filename}" -o "{filename}."'
+    '.gif': 'gifsicle --no-warnings -O "{filename}" -o "{filename}."'
 }
 
 
